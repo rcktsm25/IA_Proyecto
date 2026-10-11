@@ -99,20 +99,27 @@ python recommendation_system.py
 
 ### Ejemplo de Salida:
 ```text
-=== Inicializando Sistema de Recomendación ===
-Cargando dataset desde: .../products.csv
-Total de registros cargados: 20
-Modelo entrenado exitosamente con algoritmo KNeighborsClassifier.
-Precisión del modelo (Accuracy): 100.00%
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║         🤖  SISTEMA DE RECOMENDACIÓN INTELIGENTE CON MACHINE LEARNING            ║
+║               INACAP  •  ETVI02 - Tendencias Emergentes en IA                    ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 
---- Demostración de Recomendaciones ---
-Producto: Dispositivo móvil gama alta
-  Características [Precio norm, Rating, Popularidad]: [0.82, 4.6, 0.91]
-  Categoría recomendada: Smartphones
+ ✓ Dataset cargado: products.csv (25 registros)
+ ✓ Algoritmo entrenado: KNeighborsClassifier (k=3 vecinos)
+ ✓ Precisión del Modelo (Accuracy): ████████████████████ 100.0%
 
-Producto: Computador portátil para trabajo
-  Características [Precio norm, Rating, Popularidad]: [0.92, 4.8, 0.95]
-  Categoría recomendada: Laptops
+📊 DEMOSTRACIÓN DE RECOMENDACIONES EN TIEMPO REAL:
+┌───────────────────────────────┬─────────────────────────────┬───────────────────────────┐
+│ Producto a Evaluar            │ Características [P / R / Pop]│ Categoría Recomendada    │
+├───────────────────────────────┼─────────────────────────────┼───────────────────────────┤
+│ Dispositivo móvil gama alta   │ P:0.67 | R:4.6★ | Pop:0.91  │ 📱 Smartphones             │
+│ Computador portátil trabajo   │ P:0.93 | R:4.8★ | Pop:0.82  │ 💻 Laptops                 │
+│ Cable USB / Adaptador         │ P:0.15 | R:4.0★ | Pop:0.42  │ 🔌 Accesorios              │
+│ Smartwatch deportivo          │ P:0.49 | R:4.6★ | Pop:0.76  │ ⌚ Smartwatches            │
+│ Auriculares inalámbricos      │ P:0.31 | R:4.4★ | Pop:0.61  │ 🎧 Audio                   │
+└───────────────────────────────┴─────────────────────────────┴───────────────────────────┘
+
+✨ Sistema inicializado con éxito y listo para predicciones.
 ```
 
 ---
