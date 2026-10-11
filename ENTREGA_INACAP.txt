@@ -1,0 +1,32 @@
+======================================================================
+                   INACAP - AMBIENTE DE APRENDIZAJE (AAI)
+        ACTIVIDAD FORMATIVA: GITHUB COPILOT (ETVI02 - U3 - S8)
+======================================================================
+
+DATOS DEL ESTUDIANTE:
+---------------------
+Nombre Completo: [Ingresa tu Nombre y Apellidos aquí]
+RUT:             [Ingresa tu RUT aquí]
+Carrera:         [Ingresa tu Carrera aquí]
+Asignatura:      ETVI02 - Tendencias Emergentes en IA
+Docente:         [Ingresa el nombre del docente si aplica]
+Fecha:           11 de Octubre de 2026
+
+----------------------------------------------------------------------
+ENLACE AL REPOSITORIO DE GITHUB:
+----------------------------------------------------------------------
+URL del Repositorio:
+https://github.com/[TU_USUARIO_GITHUB]/IA_Proyecto
+
+----------------------------------------------------------------------
+BREVE RESUMEN DE LA ACTIVIDAD:
+----------------------------------------------------------------------
+En esta actividad formativa se implementó un sistema de clasificación y 
+recomendación de productos basado en Machine Learning (K-Nearest Neighbors) 
+utilizando Python y Scikit-Learn.
+
+El desarrollo fue asistido mediante la herramienta GitHub Copilot dentro 
+de Visual Studio Code, documentando en el archivo README.md del repositorio 
+todo el proceso de prompts, sugerencias recibidas, código resultante y 
+las capturas de pantalla de evidencia correspondientes.
+======================================================================
