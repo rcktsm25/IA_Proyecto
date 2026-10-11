@@ -83,7 +83,7 @@ Se utilizaron comentarios en lenguaje natural en el archivo `recommendation_syst
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/rcktsm25/IA_Proyecto.git
 cd IA_Proyecto
 ```
 

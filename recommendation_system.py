@@ -64,15 +64,17 @@ def main():
         Predice y recomienda la categoría de producto basada en sus características.
         product_features: [price_normalized, rating, popularity]
         """
-        prediction = model.predict([product_features])
+        input_df = pd.DataFrame([product_features], columns=['price_normalized', 'rating', 'popularity'])
+        prediction = model.predict(input_df)
         return prediction[0]
 
     # Casos de prueba / Ejemplo de recomendación
     test_cases = [
-        {"name": "Dispositivo móvil gama alta", "features": [0.82, 4.6, 0.91]},
-        {"name": "Computador portátil para trabajo", "features": [0.92, 4.8, 0.95]},
-        {"name": "Cable USB / Adaptador", "features": [0.18, 4.0, 0.52]},
-        {"name": "Auriculares inalámbricos", "features": [0.42, 4.4, 0.88]}
+        {"name": "Dispositivo móvil gama alta", "features": [0.67, 4.6, 0.91]},
+        {"name": "Computador portátil para trabajo", "features": [0.93, 4.8, 0.82]},
+        {"name": "Cable USB / Adaptador", "features": [0.15, 4.0, 0.42]},
+        {"name": "Smartwatch deportivo", "features": [0.49, 4.6, 0.76]},
+        {"name": "Auriculares inalámbricos", "features": [0.31, 4.4, 0.61]}
     ]
 
     print("--- Demostración de Recomendaciones ---")

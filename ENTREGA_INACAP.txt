@@ -16,7 +16,7 @@ Fecha:           11 de Octubre de 2026
 ENLACE AL REPOSITORIO DE GITHUB:
 ----------------------------------------------------------------------
 URL del Repositorio:
-https://github.com/[TU_USUARIO_GITHUB]/IA_Proyecto
+https://github.com/rcktsm25/IA_Proyecto
 
 ----------------------------------------------------------------------
 BREVE RESUMEN DE LA ACTIVIDAD:
