@@ -73,9 +73,9 @@ Se utilizaron comentarios en lenguaje natural en el archivo `recommendation_syst
 ![Sugerencia de Copilot](screenshots/02_copilot_suggestion.png)
 *Muestra las sugerencias predictivas (texto en gris) y el panel de GitHub Copilot en acción.*
 
-### 3. Ejecución del Script y Resultados de Clasificación
-![Resultado en Terminal](screenshots/03_execution_result.png)
-*Muestra la salida por consola con el cálculo de precisión (Accuracy) y las categorías recomendadas.*
+### 3. Visualización Gráfica y Evaluación del Modelo
+![Dashboard de Recomendación y Matriz de Confusión](screenshots/03_model_clusters.png)
+*Dashboard generado con Matplotlib y Seaborn mostrando el agrupamiento por características (precio vs popularidad), los puntos de inferencia evaluados y la matriz de confusión con 100% de precisión.*
 
 ---
 
